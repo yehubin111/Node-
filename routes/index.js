@@ -130,13 +130,13 @@ function sendEmail(HtmlData) {
     port: 465,
     secureConnection: true,
     auth: {
-      user: '542084894@qq.com',
-      pass: 'dyixopbmfadqbbed'
+      user: '',
+      pass: ''
     }
   })
   let mailOptions = {
-    from: 'yehubin <542084894@qq.com>',
-    to: 'brian.ye@jollycorp.com',
+    from: '',
+    to: '',
     subject: '测试邮件',
     html: html
   }
