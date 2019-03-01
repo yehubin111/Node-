@@ -1,0 +1,123 @@
+body {
+    padding: 50px;
+    font: 14px "PingFang SC, Microsoft YaHei, Arial, sans-serif";
+}
+
+p,
+span,
+div {
+    margin: 0;
+}
+
+a {
+    color: #00B7FF;
+}
+
+.content {
+    background-color: #f6f6f6;
+    width: 80%;
+    margin: 40px auto;
+    box-shadow: 15px 15px 0 #bfbfbf;
+    display: flex;
+}
+
+.day {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    background-color: #E4E7ED;
+    display: flex;
+}
+.day .date{
+  flex-basis: 90px;
+  background-color: #f9fafd;
+  padding: 0 10px;
+}
+.dayline{
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 80px;
+}
+.yearline{
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.weathertable {
+    /* background-color: #f9fafd; */
+    padding-bottom: 35px;
+}
+
+.weathertip {
+    font-size: 24px;
+    color: #333;
+    line-height: 80px;
+    padding: 0 20px;
+    overflow: hidden;
+    height: 80px;
+}
+
+.title {
+    font-size: 16px;
+    text-align: center;
+    line-height: 60px;
+    /* padding-left: 20px; */
+}
+
+.weatherlist {
+    display: flex;
+    margin-top: 5px;
+    height: 30px;
+    line-height: 30px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.weather {
+    text-align: center;
+    flex: 1;
+}
+
+.weatherlist .font {
+    text-align: center;
+    flex: 1;
+}
+
+.weatherlist .level_1 {
+    color: #8fc31f;
+}
+
+.weatherlist .level_2 {
+    color: #d7af0e;
+}
+
+.weatherlist .level_3 {
+    color: #f39800;
+}
+
+.weatherlist .level_4 {
+    color: #e2361a;
+}
+
+.weatherlist .level_5 {
+    color: #5f52a0;
+}
+
+.weatherlist .level_6 {
+    color: #631541;
+}
+
+.one {
+    text-align: center;
+    background-color: #f9fafd;
+}
+
+.one .fonttitle{
+  line-height: 30px;
+  color: #999;
+}
+
+.one .text {
+    line-height: 26px;
+    padding: 0 20px 30px 20px;
+}
